@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>acquisition</artifactId>
+    <artifactId>woodpecker.acquisition</artifactId>
     <packaging>jar</packaging>
 
     <parent>
@@ -202,8 +202,14 @@
         </dependency>
         <dependency>
             <groupId>webint</groupId>
+            <artifactId>woodpecker.common</artifactId>
+            <version>0.0.3-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>webint</groupId>
             <artifactId>common</artifactId>
             <version>0.0.3-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
