@@ -1,0 +1,12 @@
+version: '3'
+services:
+  acquisition:
+    build: ./acquisition
+  frontend:
+    build: ./frontend
+    ports:
+      - 8080:80
+  webservice:
+    build: ./webservice
+    ports:
+      - 8088:8088
