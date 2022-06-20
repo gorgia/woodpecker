@@ -15,7 +15,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <kotlin.version>1.3.21</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
         <spring.boot.starter.version>2.1.3.RELEASE</spring.boot.starter.version>
     </properties>
 
